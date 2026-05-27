@@ -1,0 +1,44 @@
+body{
+  margin:0;
+  font-family:Arial;
+}
+
+.hero{
+  background:#007bff;
+  color:white;
+  text-align:center;
+  padding:100px 20px;
+}
+
+button{
+  padding:10px 20px;
+  border:none;
+}
+
+.features{
+  display:flex;
+  justify-content:space-around;
+  padding:40px;
+}
+.card {
+    background-color: #f4f4f4;
+    width: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+footer{
+  text-align:center;
+  background:#222;
+  color:white;
+  padding:20px;
+}
+
+@media(max-width:768px){
+  .features{
+    flex-direction:column;
+    gap:20px;
+    text-align:center;
+  }
+}
